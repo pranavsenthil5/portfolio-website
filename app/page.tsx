@@ -1,7 +1,5 @@
 'use client'
 import React from "react";
-import profilePic from "../assets/profile.jpg"; // Add your profile picture in the assets folder
-
 export default function App() {
   return (
     <>
@@ -14,7 +12,7 @@ export default function App() {
               className="w-32 h-32 rounded-full mx-auto mb-4"
             />
             <h1 className="text-4xl font-bold mb-2">Pranav Vedasendur Senthilvel</h1>
-            <p className="text-gray-700 mb-4">Welcome to my portfolio website! I'm Pranav, a passionate developer.</p>
+            <p className="text-gray-700 mb-4">Welcome to my portfolio website! I&apos;m Pranav, a passionate developer.</p>
             <div className="flex justify-center space-x-4 mb-8">
               <a
                 href="https://github.com/pranavsenthil5"
@@ -33,7 +31,7 @@ export default function App() {
                 LinkedIn
               </a>
               <a
-                href="https://devpost.com/pranavsenthil5"
+                href="https://devpost.com/pranavsenthi5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
@@ -68,7 +66,7 @@ export default function App() {
                   <li>Interfaced with various sensors, including ones by METER Group, and created new UI widgets and libraries on IoT platforms such as Ubidots and Particle to enhance user experience and code efficiency</li>
                   <li>Installed sensors and data loggers on farms across Michigan, equipping researchers to collect data for their experiments</li>
                   <li>Integrated LoRa technology with existing data loggers to create sensor networks for farms, resulting in enhanced coverage and reduced operational costs (prototype)</li>
-                  <li>Implemented a navigation stack using ROS for an autonomous rover, and presented it at MSU’s Mid-SURE event</li>
+                  <li>Implemented a navigation stack using ROS for an autonomous rover, and presented it at MSU&rsquo;s Mid-SURE event</li>
                 </ul>
                 <p className="text-gray-700"><strong>Teaching Fellow, CMSC 201 – Computer Science I, UMBC</strong> (Aug 2023 – Nov 2023)</p>
                 <ul className="list-disc list-inside text-gray-700">
@@ -78,13 +76,13 @@ export default function App() {
                 </ul>
                 <p className="text-gray-700"><strong>Coverage Test Intern, SBP Consulting LLC, Laurel, MD</strong> (Aug 2022 – Aug 2022)</p>
                 <ul className="list-disc list-inside text-gray-700">
-                  <li>Coordinated with 911 dispatch center at the Sheriff’s office in Shenandoah County to measure radio coverage of a new Motorola radio system</li>
-                  <li>Used in-house and Motorola’s proprietary software Voyager to perform BER and DAQ tests across the county using portable radios, measuring the performance the system</li>
+                  <li>Coordinated with 911 dispatch center at the Sheriff&rsquo;s office in Shenandoah County to measure radio coverage of a new Motorola radio system</li>
+                  <li>Used in-house and Motorola&rsquo;s proprietary software Voyager to perform BER and DAQ tests across the county using portable radios, measuring the performance the system</li>
                   <li>Developed a PyQt application to automate the process of editing XML files with geo-data that stored the test results</li>
                 </ul>
                 <p className="text-gray-700"><strong>Data Science Intern, Mu Sigma, India</strong> (Apr 2019 – May 2019)</p>
                 <ul className="list-disc list-inside text-gray-700">
-                  <li>Analyzed and cleaned raw ATM transaction data for a ‘mock’ client (bank) and performed EDA and hypothesis testing to perform data-driven decisions</li>
+                  <li>Analyzed and cleaned raw ATM transaction data for a &lsquo;mock&rsquo; client (bank) and performed EDA and hypothesis testing to perform data-driven decisions</li>
                   <li>Used trend prediction models to optimize ATM cash refill schedules and closely collaborated with the client and presented findings to leaders at Mu Sigma</li>
                 </ul>
               </div>
@@ -103,14 +101,14 @@ export default function App() {
                 <p className="text-gray-700"><strong>Sophér – Medical Form Auto-filler (Hackathon – HopHacks 2023)</strong></p>
                 <ul className="list-disc list-inside text-gray-700">
                   <li>Designed and built an application using NEXT.js and Capacitor, allowing users to scan medical forms and automatically populate answer fields with known user information</li>
-                  <li>Utilized Google's Document AI for OCR and OpenAI’s GPT3 for answering questions</li>
+                  <li>Utilized Google&apos;s Document AI for OCR and OpenAI&rsquo;s GPT3 for answering questions</li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-xl font-bold">Education</h3>
                 <p className="text-gray-700"><strong>B.S. Computer Science, University of Maryland Baltimore County</strong> (Expected Graduation: Dec 2024)</p>
                 <ul className="list-disc list-inside text-gray-700">
-                  <li>President’s List, Dean’s List</li>
+                  <li>President&rsquo;s List, Dean&rsquo;s List</li>
                   <li>GPA: 3.885</li>
                 </ul>
                 <p className="text-gray-700"><strong>High School Diploma, Isha Home School, India</strong> (Graduation: May 2020)</p>
